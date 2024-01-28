@@ -7,8 +7,8 @@ public class Filme {
     int totalDeAvaliacao;
 
     void exibeFichaTecnica(){
-        System.out.println(nome);
-        System.out.println(anoDeLancamento);
+        System.out.println("nome do filme: " + nome);
+        System.out.println("Ano de lançamento: " + anoDeLancamento);
         System.out.println(duracaoEmMinutos);
         System.out.println(totalDeAvaliacao);
 
